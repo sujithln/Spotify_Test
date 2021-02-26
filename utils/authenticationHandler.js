@@ -3,8 +3,8 @@ import {authorize, refresh} from 'react-native-app-auth';
 class AuthenticationHandler {
   constructor() {
     this.spotifyAuthConfig = {
-      clientId: '3abceea2d1f04eaf91b4bf4af39bd4a7',
-      clientSecret: 'caf6b1c6d3df4a828c1558331d3cd9fb',
+      clientId: '',
+      clientSecret: '',
       redirectUrl: 'net.spotify.test:/oauth2redirect',
       scopes: [
         'playlist-read-private',
